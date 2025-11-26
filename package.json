@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-text-storage",
+  "version": "1.0.0",
+  "description": "完整文本存储系统 - 支持文件转链接、搜索管理和备注功能",
+  "main": "functions/[[path]].js",
+  "scripts": {
+    "dev": "wrangler pages dev public --binding FILES=files",
+    "deploy": "wrangler pages deploy public"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20231102.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
