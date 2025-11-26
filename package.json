@@ -5,11 +5,10 @@
   "main": "functions/[[path]].js",
   "scripts": {
     "dev": "wrangler pages dev public --binding FILES=files",
-    "deploy": "wrangler pages deploy public"
+    "build": "echo 'No build step required for Pages'",
+    "deploy": "echo 'Deployment is handled by Cloudflare Pages'"
   },
-  "dependencies": {
-    "@cloudflare/workers-types": "^4.20231102.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "wrangler": "^3.0.0"
   },
