@@ -4,8 +4,8 @@ pages_build_output_dir = "public"
 
 [[kv_namespaces]]
 binding = "FILES"
-id = "your-kv-namespace-id"  # 需要在Cloudflare Dashboard中创建并替换
-preview_id = "your-kv-preview-id"
+id = "my-text-storage"  # 需要在Cloudflare Dashboard中创建并替换
+preview_id = "my-text-storage"
 
 [env.production]
 # 生产环境配置
