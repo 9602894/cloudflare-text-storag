@@ -1,3 +1,4 @@
+
 name = "cloudflare-text-storage"
 compatibility_date = "2023-11-01"
 pages_build_output_dir = "public"
@@ -6,9 +7,3 @@ pages_build_output_dir = "public"
 binding = "FILES"
 id = "my-text-storage"  # 需要在Cloudflare Dashboard中创建并替换
 preview_id = "my-text-storage"
-
-[env.production]
-# 生产环境配置
-
-[env.staging]
-# 测试环境配置
